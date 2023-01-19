@@ -4,6 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListTest {
+	
+	/*
+	 * 배열: fixed-length ; 속도 빠름,다차원
+	 * list: dynamic ; 다차원지원안함, 순차적인 집합, 
+	 * 
+	 * 벡터: 레거시클래스 정해진 틀에 짜여진 프레임워크 -> Collection프레임워크
+	 * ->> 동기화 유지 같은공간에서 같은값으로접근하는것
+	 * ex) 잔액 10000원 , 입금 1000원-> 11000원 800-> 10200원잔액
+	 * "임계구역"
+	 */
 
 	public static void main(String[] args) {
 		// 리스트 구조를 갖는 ArrayList클래스의 객체생성
