@@ -14,15 +14,15 @@ public class MemberLinkedListMain {
 		Member memberHong= new Member(1004,"홍길동");
 		
 		LinkedList.addMember(memberLee);
-		LinkedList.addMember(memberLee);
-		LinkedList.addMember(memberLee);
-		LinkedList.addMember(memberLee);
+		LinkedList.addMember(memberSon);
+		LinkedList.addMember(memberPark);
+		LinkedList.addMember(memberHong);
 
 		
 		LinkedList.showAllMember();
 		
-		Member memberKim = new Member(1003,"김서우");
-		LinkedList.addMember(memberKim);
+		//Member memberKim = new Member(1003,"김서우");
+		//LinkedList.addMember(memberKim);
 		LinkedList.showAllMember();
 
 	}

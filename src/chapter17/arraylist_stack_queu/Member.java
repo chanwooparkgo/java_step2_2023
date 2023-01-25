@@ -4,16 +4,21 @@ public class Member {
 
 	
 		private int memberID;
-		private String memberName;
+		private String memberName;//필드지정 타입
 	
 	
 	
-	
-	public Member(int i, String string) {
-			// TODO Auto-generated constructor stub
-		}
+	/*
+	public Member(int memberID, String memberName) {
+			this.memberID=memberID;
+			this.memberName=memberName;
+		}	//필드지정과 메인에서 불러들일 매개변수 
+*/
 
-
+	public Member(int i, String j) {
+		memberID=i;
+		memberName=j;
+	}
 
 
 	public int getMemberID() {

@@ -7,8 +7,6 @@ import chapter17.arraylist_stack_queu.Member;
 
 public class MemberLinkedList {
 
-	
-	public static void main(String[] args) {  }
 		
 		private LinkedList<Member> linkedList;
 		//생성자를 통한 LinkedList객체 생성
@@ -16,7 +14,7 @@ public class MemberLinkedList {
 		public MemberLinkedList() {
 			linkedList = new LinkedList<Member>();
 		}
-		LinkedList<String> list = new LinkedList<String>();
+		//LinkedList<String> list = new LinkedList<String>();
 		
 		
 		//addMember 
