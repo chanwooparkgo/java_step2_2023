@@ -7,6 +7,8 @@ public class FileWriterTest {
 
 	public static void main(String[] args) {
 		
+		
+		
 		try(FileWriter fw = new FileWriter("writer.txt")) {
 			/*
 			fw.write('A');
