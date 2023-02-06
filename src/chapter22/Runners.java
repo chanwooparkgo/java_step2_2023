@@ -12,7 +12,7 @@ public class Runners {
 		boolean finish=false;
 		int finishPlayer=0;
 		
-		
+		   
 		while(true) {
 		//도약거리
 		for(int i=0; i<playerRandom.length; i++) {
